@@ -1,0 +1,223 @@
+/***base styles***/
+body {
+  color: #087e8b;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin-top: 0px;
+}
+
+#header {
+  background: url('../img/hero-image.png');
+  background-size: cover;
+  height: 800px;
+}
+
+#portfolio {
+  height: 1450px;
+  margin-bottom: 50px;
+  padding-left padding-right:100px;
+  padding-top: 55px;
+  padding-bottom: 100px;
+}
+
+#about {
+  clear:both;
+  background-color: #087e8b;
+  height: 650px;
+  padding: 50px 100px 50px 100px;
+}
+
+#contact {
+  clear:both;
+  background-color: #095256;
+  height: 400px;
+  padding:50px 100px 50px 100px;
+  margin-bottom: 0px;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 500px;
+  float: left;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+  margin-right: 50px;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+  text-align: center;
+}
+
+/****HEADER***/
+
+.intro {
+  font-family: 'Roboto Slab', serif;
+  color: #bdbf09;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 350px;
+  padding-bottom: 55px;
+  padding-left:215px;
+  padding-right:215px;
+  margin: 0;
+}
+
+.intro span {
+  font-size: 48px;
+  color: #095256;
+  text-align: center;
+  font-weight: lighter;
+}
+
+intro-work {
+  font-family: 'Roboto Slab', serif;
+  color: #bdbf09;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 350px;
+  padding-bottom: 55px;
+  padding-left:215px;
+  padding-right:215px;
+  margin: 0;
+}
+
+nav {
+  align-content: center;
+  padding-top: 40px;
+  text-align:center;
+}
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  display: inline-block;
+  margin-right:60px;
+}
+/***PORTFOLIO***/
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+  font-size: 36px;
+  padding-bottom: 50px;
+}
+
+.portfolio-images {
+  width: 550px;
+  height: 350px;
+  border: #b7b7b7 solid 2px;
+}
+
+#project-2 {
+  clear:both;
+  padding-bottom: 50px
+  margin-right: 50px;
+}
+
+#project-3 {
+  clear:both;
+}
+
+.project-title {
+  margin-top: 0px;
+}
+
+/***ABOUT***/
+#about .half-width {
+  margin-right: 50px;
+}
+
+#about-page {
+  clear:both;
+  background-color: #087e8b;
+  padding: 50px 100px 50px 100px;
+}
+
+#about-image {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+h2 span {
+  color:white;
+}
+
+#about-heading {
+  color: white;
+  margin-top: 0px;
+}
+
+.about-paragraph {
+  color:white;
+  font-weight:lighter;
+}
+
+.about-page-p-heading {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about-page-ab-p {
+  text-align: left;
+}
+
+/**CONTACT**/
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: gray;
+  text-decoration: none;
+}
+
+.contact-header {
+  color: white;
+}
+
+.contact-body {
+  color: white;
+}
+
+#contact h2 {
+  color:white;
+}
+
+.meet-me {
+  margin-right: 0;
+}
+
+#contact img {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+#contact .contact-body {
+  font-weight: lighter;
+}
+
+/***FOOTER***/
+footer {
+  background-color: #095256;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 0px;
+  padding: 30px;
+}
